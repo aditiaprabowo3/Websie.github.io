@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar ul li a{
+    font-weight: 500;
+    color: #000;
+}
+.section-banner .btn {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.section-banner .btn {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.section-banner .btn:hover{
+    background-color: #ff9090 !important;
+}
+.section-banner .btn:hover a{
+    color: #fff !important;
+}
+.card-content {
+    margin: 20px 0;
+}
+.card-content-1:hover {
+    box-shadow: 0 0 40px rgba(0,0,0,0.125);
+    border-radius: 20px;
+}
+.card-project .bg-top .overlay {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    opacity: 0;
+}
+.card-project:hover  .overlay {
+    opacity: 1;
+    transition: ease-in;
+}
+.card-testi:hover {
+    box-shadow: 0 0 40px rgba(0,0,0,0.125);
+    border-radius: 20px;
+}
+footer ul li {
+    margin-left: -30px;
+    padding-bottom: 17px;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000 ;
+    font-weight: 400;
+    opacity: 0.8;
+}
+footer h5 {
+    font-weight: 600;
+    padding-bottom: 17px;
+}
+
+
+@media (min-width: 300px) { 
+    .section-banner .text-content h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .section-banner .text-content  p {
+        font-size: 12px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .navbar .bt {
+        margin-top: 14px;
+    }
+    .navbar ul li{
+        padding: 0;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 10%;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .text-content p {
+        font-size: 12px;
+    }
+}
+@media (min-width: 400px) { 
+    .section-banner .text-content h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .section-banner .text-content  p {
+        font-size: 15px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .navbar .bt {
+        margin-top: 14px;
+    }
+    .navbar ul li{
+        padding: 0;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 10%;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .text-content p {
+        font-size: 14px;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content  p {
+        font-size: 16px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .navbar .bt {
+        margin-top: 14px;
+    }
+    .navbar ul li{
+        padding: 0;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 10%;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .text-content p {
+        font-size: 15px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content  p {
+        font-size: 16px;
+    }
+    .section-banner .img-content img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .section-banner .text-content {
+        text-align: center;
+    }
+    .navbar .bt {
+        margin-top: 14px;
+    }
+    .navbar ul li{
+        padding: 0;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 10%;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .section-about .text-content p {
+        font-size: 17px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content  p {
+        font-size: 16px;
+    }
+    .section-banner .img-content img {
+        width: 120%;
+        height: 120%;
+        margin-left: -70px;
+        margin-top: -50px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .navbar .bt {
+        margin-top: 0;
+    }
+    .navbar ul li{
+        padding: 0 15px;
+    }
+    .section-about .img-content img {
+        width: 135%;
+        height: 135%;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .section-about .text-content p {
+        font-size: 17px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content  p {
+        font-size: 16px;
+    }
+    .section-banner .img-content img {
+        width: 120%;
+        height: 120%;
+        margin-left: -100px;
+        margin-top: -70px;
+    }
+    .section-banner .text-content {
+        text-align: left;
+    }
+    .navbar .bt {
+        margin-top: 0;
+    }
+    .navbar ul li{
+        padding: 0 15px;
+    }
+    .section-about .img-content img {
+        width: 110%;
+        height: 110%;
+    }
+    .section-about .text-content {
+        margin-top: 90px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    .section-about .text-content p {
+        font-size: 17px;
+    }
+ }
